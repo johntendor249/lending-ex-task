@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Блог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">IT-Блог</a>
+            <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Статьи</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">О проекте</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr class="header__divider">
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">Последние статьи</h1>
+            <section class="articles">
+                <article class="article-card">
+                    <div class="article-card__image-wrapper">
+                        <img src="img/article_1.jpg" alt="Изображение статьи 1" class="article-card__image">
+                    </div>
+                    <div class="article-card__content">
+                        <h2 class="article-card__title">Введение в веб-разработку</h2>
+                        <p class="article-card__text">Узнайте основы HTML, CSS и JavaScript. Первый шаг на пути к созданию современных веб-приложений.</p>
+                        <a href="#" class="article-card__button">Читать далее...</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-card__image-wrapper">
+                        <img src="img/article_2.jpg" alt="Изображение статьи 2" class="article-card__image">
+                    </div>
+                    <div class="article-card__content">
+                        <h2 class="article-card__title">CSS Grid и Flexbox</h2>
+                        <p class="article-card__text">Современные методы создания адаптивных макетов. Сравнение Grid и Flexbox для различных задач.</p>
+                        <a href="#" class="article-card__button">Читать далее...</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-card__image-wrapper">
+                        <img src="img/article_3.jpg" alt="Изображение статьи 3" class="article-card__image">
+                    </div>
+                    <div class="article-card__content">
+                        <h2 class="article-card__title">JavaScript для начинающих</h2>
+                        <p class="article-card__text">Основы программирования на JavaScript. Переменные, функции и работа с DOM.</p>
+                        <a href="#" class="article-card__button">Читать далее...</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <div class="article-card__image-wrapper">
+                        <img src="img/article_4.jpg" alt="Изображение статьи 4" class="article-card__image">
+                    </div>
+                    <div class="article-card__content">
+                        <h2 class="article-card__title">Адаптивный дизайн</h2>
+                        <p class="article-card__text">Как создавать сайты, которые отлично выглядят на любых устройствах. Media queries и mobile-first подход.</p>
+                        <a href="#" class="article-card__button">Читать далее...</a>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <hr class="footer__divider">
+        <div class="container footer__container">
+            <p class="footer__copyright">&copy; IT-Блог, 2026. Все права защищены.</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://vk.com" class="social-list__link" target="_blank" rel="noopener">
+                        <img src="img/vk.png" alt="ВКонтакте" class="social-list__icon">
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://rutube.ru" class="social-list__link" target="_blank" rel="noopener">
+                        <img src="img/rutube.png" alt="Rutube" class="social-list__icon">
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://t.me" class="social-list__link" target="_blank" rel="noopener">
+                        <img src="img/telegram.png" alt="Telegram" class="social-list__icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
